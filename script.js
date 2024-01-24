@@ -65,7 +65,7 @@ const monsters = [
   { name: "dragon", level: 20, health: 300 },
 ];
 
-// Salut moi 
+// Salut moi
 button1.onclick = goStore();
 button2.onclick = goCave();
 button3.onclick = fightDragon();
@@ -148,6 +148,10 @@ function fightDragon() {
 }
 
 function goFight() {}
+
+function attack() {}
+
+function dodge() {}
 
 function sellWeapon() {
   if (inventory.length > 1) {
